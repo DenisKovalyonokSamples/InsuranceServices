@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DK.PolicyService": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

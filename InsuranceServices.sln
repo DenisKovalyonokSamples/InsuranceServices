@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.AgentPortalAPIGateway", "DK.AgentPortalAPIGateway\DK.AgentPortalAPIGateway.csproj", "{51B63AB7-A6D0-4776-8CC8-B3C56F814C7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DK.AgentPortalAPIGateway", "DK.AgentPortalAPIGateway\DK.AgentPortalAPIGateway.csproj", "{51B63AB7-A6D0-4776-8CC8-B3C56F814C7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{64B53B00-9982-45E9-BE9E-B7C7E1B9C9C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.AuthService", "DK.AuthService\DK.AuthService.csproj", "{B921D4DD-D210-43A2-89AF-E655039E1623}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{51B63AB7-A6D0-4776-8CC8-B3C56F814C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51B63AB7-A6D0-4776-8CC8-B3C56F814C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51B63AB7-A6D0-4776-8CC8-B3C56F814C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B921D4DD-D210-43A2-89AF-E655039E1623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B921D4DD-D210-43A2-89AF-E655039E1623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B921D4DD-D210-43A2-89AF-E655039E1623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B921D4DD-D210-43A2-89AF-E655039E1623}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B921D4DD-D210-43A2-89AF-E655039E1623} = {64B53B00-9982-45E9-BE9E-B7C7E1B9C9C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE4F674-4719-47B4-AF19-6FA8BD225AC9}

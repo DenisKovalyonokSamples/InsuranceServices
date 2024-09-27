@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DK.ChatService": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

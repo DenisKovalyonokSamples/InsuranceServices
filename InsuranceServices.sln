@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Policy", "Policy", "{690CEC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.PolicyService.API", "DK.PolicyService.API\DK.PolicyService.API.csproj", "{F970D609-4A52-451E-8011-754B45A60D58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.ChatService", "DK.ChatService\DK.ChatService.csproj", "{EA5FAEBE-B353-4B76-B334-EE282C5F3AC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F970D609-4A52-451E-8011-754B45A60D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F970D609-4A52-451E-8011-754B45A60D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F970D609-4A52-451E-8011-754B45A60D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA5FAEBE-B353-4B76-B334-EE282C5F3AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA5FAEBE-B353-4B76-B334-EE282C5F3AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA5FAEBE-B353-4B76-B334-EE282C5F3AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA5FAEBE-B353-4B76-B334-EE282C5F3AC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{B921D4DD-D210-43A2-89AF-E655039E1623} = {64B53B00-9982-45E9-BE9E-B7C7E1B9C9C5}
 		{774B049A-9664-4E13-8944-C2E90A3B4750} = {8E01903A-0483-4F82-9627-E1350B42726D}
 		{F970D609-4A52-451E-8011-754B45A60D58} = {690CEC85-67E0-4138-A5BC-A02D8F3044B5}
+		{EA5FAEBE-B353-4B76-B334-EE282C5F3AC1} = {8E01903A-0483-4F82-9627-E1350B42726D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE4F674-4719-47B4-AF19-6FA8BD225AC9}

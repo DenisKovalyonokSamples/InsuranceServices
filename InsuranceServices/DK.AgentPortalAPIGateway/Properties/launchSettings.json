@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DK.AgentPortalAPIGateway": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

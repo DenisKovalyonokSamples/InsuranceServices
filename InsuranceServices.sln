@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{64B53B00-9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.AuthService", "DK.AuthService\DK.AuthService.csproj", "{B921D4DD-D210-43A2-89AF-E655039E1623}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chat", "Chat", "{8E01903A-0483-4F82-9627-E1350B42726D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.ChatService.API", "DK.ChatService.API\DK.ChatService.API.csproj", "{774B049A-9664-4E13-8944-C2E90A3B4750}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,17 @@ Global
 		{B921D4DD-D210-43A2-89AF-E655039E1623}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B921D4DD-D210-43A2-89AF-E655039E1623}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B921D4DD-D210-43A2-89AF-E655039E1623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{774B049A-9664-4E13-8944-C2E90A3B4750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774B049A-9664-4E13-8944-C2E90A3B4750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774B049A-9664-4E13-8944-C2E90A3B4750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774B049A-9664-4E13-8944-C2E90A3B4750}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B921D4DD-D210-43A2-89AF-E655039E1623} = {64B53B00-9982-45E9-BE9E-B7C7E1B9C9C5}
+		{774B049A-9664-4E13-8944-C2E90A3B4750} = {8E01903A-0483-4F82-9627-E1350B42726D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE4F674-4719-47B4-AF19-6FA8BD225AC9}

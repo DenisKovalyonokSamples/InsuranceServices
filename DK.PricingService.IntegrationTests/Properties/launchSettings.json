@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DK.PricingService.IntegrationTests": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

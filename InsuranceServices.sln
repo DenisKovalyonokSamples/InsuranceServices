@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.PricingService", "DK.Pri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.PricingService.IntegrationTests", "DK.PricingService.IntegrationTests\DK.PricingService.IntegrationTests.csproj", "{D22B6E1E-767B-41F5-81FF-606757219CA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.PricingService.UnitTests", "DK.PricingService.UnitTest\DK.PricingService.UnitTests.csproj", "{1552273D-2C71-4D89-AFE9-9B17A0BB519D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.PricingService.UnitTests", "DK.PricingService.UnitTests\DK.PricingService.UnitTests.csproj", "{1552273D-2C71-4D89-AFE9-9B17A0BB519D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

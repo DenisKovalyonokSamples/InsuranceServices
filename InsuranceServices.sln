@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.ProductService.UnitTests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.ProductService", "DK.ProductService\DK.ProductService.csproj", "{317C5C24-54DC-46EC-A711-33B082BDBFEF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PolicySearch", "PolicySearch", "{03772835-CB05-4B7F-880C-25A5072C7FFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.PolicySearchService.API", "DK.PolicySearchService.API\DK.PolicySearchService.API.csproj", "{2877A8DA-8026-4AE4-A90F-52B2589BE912}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +105,10 @@ Global
 		{317C5C24-54DC-46EC-A711-33B082BDBFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{317C5C24-54DC-46EC-A711-33B082BDBFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{317C5C24-54DC-46EC-A711-33B082BDBFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2877A8DA-8026-4AE4-A90F-52B2589BE912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2877A8DA-8026-4AE4-A90F-52B2589BE912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2877A8DA-8026-4AE4-A90F-52B2589BE912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2877A8DA-8026-4AE4-A90F-52B2589BE912}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +128,7 @@ Global
 		{427FC74E-F4E3-4FD1-9452-453527BBECB9} = {24FCF799-3A8F-4F98-ABB3-ACF7CD4BB48F}
 		{BDC8EDA2-FB85-42FC-88FF-8360CD369AD5} = {427FC74E-F4E3-4FD1-9452-453527BBECB9}
 		{317C5C24-54DC-46EC-A711-33B082BDBFEF} = {24FCF799-3A8F-4F98-ABB3-ACF7CD4BB48F}
+		{2877A8DA-8026-4AE4-A90F-52B2589BE912} = {03772835-CB05-4B7F-880C-25A5072C7FFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE4F674-4719-47B4-AF19-6FA8BD225AC9}

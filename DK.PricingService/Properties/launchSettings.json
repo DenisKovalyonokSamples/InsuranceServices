@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DK.PricingService": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

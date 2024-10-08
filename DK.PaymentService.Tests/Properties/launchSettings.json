@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "DK.PaymentService.Tests": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:49430;http://localhost:49431"
+    }
+  }
+}

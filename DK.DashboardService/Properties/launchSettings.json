@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DK.DashboardService": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

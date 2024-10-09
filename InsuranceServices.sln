@@ -67,6 +67,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dashboard", "Dashboard", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.DashboardService.API", "DK.DashboardService.API\DK.DashboardService.API.csproj", "{89EAFE2F-4192-4EE5-9A12-65E805B25690}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.DashboardService", "DK.DashboardService\DK.DashboardService.csproj", "{EF7964AE-C773-4AE2-9328-FF2903D3469B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{89EAFE2F-4192-4EE5-9A12-65E805B25690}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89EAFE2F-4192-4EE5-9A12-65E805B25690}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89EAFE2F-4192-4EE5-9A12-65E805B25690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7964AE-C773-4AE2-9328-FF2903D3469B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7964AE-C773-4AE2-9328-FF2903D3469B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7964AE-C773-4AE2-9328-FF2903D3469B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7964AE-C773-4AE2-9328-FF2903D3469B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +187,7 @@ Global
 		{0434F14E-0BC4-4A16-942E-15F43AB9D79B} = {B2936EF0-9B35-40C4-94F1-7BAAA39A0526}
 		{98F83B3C-0BB0-4026-84BE-32B5E8CA9EEA} = {0434F14E-0BC4-4A16-942E-15F43AB9D79B}
 		{89EAFE2F-4192-4EE5-9A12-65E805B25690} = {16D1FB73-4CBA-480D-A28A-3A9E05E0A271}
+		{EF7964AE-C773-4AE2-9328-FF2903D3469B} = {16D1FB73-4CBA-480D-A28A-3A9E05E0A271}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE4F674-4719-47B4-AF19-6FA8BD225AC9}

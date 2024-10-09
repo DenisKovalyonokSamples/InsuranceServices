@@ -33,41 +33,45 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DK.PricingService.UnitTests
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{24FCF799-3A8F-4F98-ABB3-ACF7CD4BB48F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.ProductService.API", "DK.ProductService.API\DK.ProductService.API.csproj", "{7BB44485-9349-4C91-9180-5A4E53FF7739}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DK.ProductService.API", "DK.ProductService.API\DK.ProductService.API.csproj", "{7BB44485-9349-4C91-9180-5A4E53FF7739}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8177AEE8-FF71-4473-A6E0-EDB66D82D309}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{427FC74E-F4E3-4FD1-9452-453527BBECB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.ProductService.UnitTests", "DK.ProductService.UnitTests\DK.ProductService.UnitTests.csproj", "{BDC8EDA2-FB85-42FC-88FF-8360CD369AD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DK.ProductService.UnitTests", "DK.ProductService.UnitTests\DK.ProductService.UnitTests.csproj", "{BDC8EDA2-FB85-42FC-88FF-8360CD369AD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.ProductService", "DK.ProductService\DK.ProductService.csproj", "{317C5C24-54DC-46EC-A711-33B082BDBFEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DK.ProductService", "DK.ProductService\DK.ProductService.csproj", "{317C5C24-54DC-46EC-A711-33B082BDBFEF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PolicySearch", "PolicySearch", "{03772835-CB05-4B7F-880C-25A5072C7FFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.PolicySearchService.API", "DK.PolicySearchService.API\DK.PolicySearchService.API.csproj", "{2877A8DA-8026-4AE4-A90F-52B2589BE912}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DK.PolicySearchService.API", "DK.PolicySearchService.API\DK.PolicySearchService.API.csproj", "{2877A8DA-8026-4AE4-A90F-52B2589BE912}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.PolicySearchService", "DK.PolicySearchService\DK.PolicySearchService.csproj", "{A326C225-9AAD-4460-B4AF-1685CD4BFBE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DK.PolicySearchService", "DK.PolicySearchService\DK.PolicySearchService.csproj", "{A326C225-9AAD-4460-B4AF-1685CD4BFBE9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EED21633-150E-4269-95AE-0E8C1A48B574}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.PolicyService.UnitTests", "DK.PolicyService.UnitTests\DK.PolicyService.UnitTests.csproj", "{A2C7FFEB-BD69-47BB-8BE1-0DCCDB5B8E4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DK.PolicyService.UnitTests", "DK.PolicyService.UnitTests\DK.PolicyService.UnitTests.csproj", "{A2C7FFEB-BD69-47BB-8BE1-0DCCDB5B8E4B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payment", "Payment", "{B2936EF0-9B35-40C4-94F1-7BAAA39A0526}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.PaymentService.API", "DK.PaymentService.API\DK.PaymentService.API.csproj", "{DDA00670-9F66-4459-95B0-0C10520F6AF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DK.PaymentService.API", "DK.PaymentService.API\DK.PaymentService.API.csproj", "{DDA00670-9F66-4459-95B0-0C10520F6AF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.PaymentService", "DK.PaymentService\DK.PaymentService.csproj", "{7D7E25B4-8CDB-461C-A502-5E6C65EAC2F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DK.PaymentService", "DK.PaymentService\DK.PaymentService.csproj", "{7D7E25B4-8CDB-461C-A502-5E6C65EAC2F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0434F14E-0BC4-4A16-942E-15F43AB9D79B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.PaymentService.UnitTests", "DK.PaymentService.Tests\DK.PaymentService.UnitTests.csproj", "{98F83B3C-0BB0-4026-84BE-32B5E8CA9EEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DK.PaymentService.UnitTests", "DK.PaymentService.Tests\DK.PaymentService.UnitTests.csproj", "{98F83B3C-0BB0-4026-84BE-32B5E8CA9EEA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dashboard", "Dashboard", "{16D1FB73-4CBA-480D-A28A-3A9E05E0A271}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.DashboardService.API", "DK.DashboardService.API\DK.DashboardService.API.csproj", "{89EAFE2F-4192-4EE5-9A12-65E805B25690}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DK.DashboardService.API", "DK.DashboardService.API\DK.DashboardService.API.csproj", "{89EAFE2F-4192-4EE5-9A12-65E805B25690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.DashboardService", "DK.DashboardService\DK.DashboardService.csproj", "{EF7964AE-C773-4AE2-9328-FF2903D3469B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DK.DashboardService", "DK.DashboardService\DK.DashboardService.csproj", "{EF7964AE-C773-4AE2-9328-FF2903D3469B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6140B004-5A34-4D88-ADD7-40493B7FA9D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.DashboardService.UnitTests", "DK.DashboardService.UnitTests\DK.DashboardService.UnitTests.csproj", "{C44D3678-5669-4AFD-86D4-2E967ED2A8F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +163,10 @@ Global
 		{EF7964AE-C773-4AE2-9328-FF2903D3469B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF7964AE-C773-4AE2-9328-FF2903D3469B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF7964AE-C773-4AE2-9328-FF2903D3469B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44D3678-5669-4AFD-86D4-2E967ED2A8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44D3678-5669-4AFD-86D4-2E967ED2A8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44D3678-5669-4AFD-86D4-2E967ED2A8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44D3678-5669-4AFD-86D4-2E967ED2A8F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,6 +196,8 @@ Global
 		{98F83B3C-0BB0-4026-84BE-32B5E8CA9EEA} = {0434F14E-0BC4-4A16-942E-15F43AB9D79B}
 		{89EAFE2F-4192-4EE5-9A12-65E805B25690} = {16D1FB73-4CBA-480D-A28A-3A9E05E0A271}
 		{EF7964AE-C773-4AE2-9328-FF2903D3469B} = {16D1FB73-4CBA-480D-A28A-3A9E05E0A271}
+		{6140B004-5A34-4D88-ADD7-40493B7FA9D7} = {16D1FB73-4CBA-480D-A28A-3A9E05E0A271}
+		{C44D3678-5669-4AFD-86D4-2E967ED2A8F4} = {6140B004-5A34-4D88-ADD7-40493B7FA9D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE4F674-4719-47B4-AF19-6FA8BD225AC9}

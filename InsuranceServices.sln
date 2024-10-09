@@ -73,6 +73,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6140B004
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.DashboardService.UnitTests", "DK.DashboardService.UnitTests\DK.DashboardService.UnitTests.csproj", "{C44D3678-5669-4AFD-86D4-2E967ED2A8F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DK.BlazorWasmClient", "DK.BlazorWasmClient\DK.BlazorWasmClient.csproj", "{7B35B989-160D-4B3A-B9EB-E7501F0A2ED6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +169,10 @@ Global
 		{C44D3678-5669-4AFD-86D4-2E967ED2A8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C44D3678-5669-4AFD-86D4-2E967ED2A8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C44D3678-5669-4AFD-86D4-2E967ED2A8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B35B989-160D-4B3A-B9EB-E7501F0A2ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B35B989-160D-4B3A-B9EB-E7501F0A2ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B35B989-160D-4B3A-B9EB-E7501F0A2ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B35B989-160D-4B3A-B9EB-E7501F0A2ED6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

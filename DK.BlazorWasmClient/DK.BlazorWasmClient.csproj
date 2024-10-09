@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Version>1.3</Version>
+		<Authors>Megabit</Authors>
+		<Company>Megabit</Company>
+		<Description>
+			This is a Blazorise Template for a Blazor Server Application.
+			Blazorise is a component library built on top of Blazor and CSS frameworks like Bootstrap, Tailwind, Bulma and Material.
+		</Description>
+		<Copyright>Copyright 2018-2023 Megabit</Copyright>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Blazored.SessionStorage" Version="2.4.0" />
+	  <PackageReference Include="Blazorise" Version="1.5.3" />
+	  <PackageReference Include="Blazorise.Bootstrap5" Version="1.5.3" />
+	  <PackageReference Include="Blazorise.Charts" Version="1.5.3" />
+	  <PackageReference Include="Blazorise.Components" Version="1.5.3" />
+	  <PackageReference Include="Blazorise.Icons.FontAwesome" Version="1.5.3" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="8.0.6" />
+	  <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="8.0.6" />
+	  <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.6" />
+	  <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="8.0.6" />
+	  <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.6" />
+	  <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="8.0.6" />
+	  <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DK.DashboardService.API\DK.DashboardService.API.csproj" />
+    <ProjectReference Include="..\DK.PolicySearchService.API\DK.PolicySearchService.API.csproj" />
+    <ProjectReference Include="..\DK.PolicyService.API\DK.PolicyService.API.csproj" />
+    <ProjectReference Include="..\DK.PricingService.API\DK.PricingService.API.csproj" />
+    <ProjectReference Include="..\DK.ProductService.API\DK.ProductService.API.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Components\Layout\" />
+    <Folder Include="Components\Auth\" />
+    <Folder Include="Components\Chat\" />
+    <Folder Include="Components\Dashboard\" />
+    <Folder Include="Components\Products\" />
+    <Folder Include="Components\PolicySearch\" />
+    <Folder Include="Shared\" />
+    <Folder Include="Pages\" />
+    <Folder Include="wwwroot\static\avatars\" />
+  </ItemGroup>
+
+</Project>

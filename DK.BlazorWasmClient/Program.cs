@@ -8,6 +8,7 @@ using DK.BlazorWasmClient.Components.PolicySearch;
 using DK.BlazorWasmClient.Components.Products;
 using DK.BlazorWasmClient.Components.Auth;
 using DK.BlazorWasmClient.Components.Dashboard;
+using DK.BlazorWasmClient;
 
 public class Program
 {

@@ -60,6 +60,7 @@ Each business microservice has also .Api project (PaymentService.Api, PolicyServ
 
 
 **Running with Docker**
+
 You must install Docker & Docker Compose before.
 
 Scripts have been divided into two parts:
@@ -77,6 +78,7 @@ If ElasticSearch fails to start, try running sudo sysctl -w vm.max_map_count=262
 Once the application and infrastructure are started you can open http://localhost:8080 in your browser and see our welcome page. Once there you can use Account menu item to log into the system. Valid users and passwords can be found here. You can for example login as admin with password admin.
 
 **Manual running**
+
 Prerequisites
 Install PostgreSQL version >= 10.0.
 
@@ -85,6 +87,7 @@ Install RabbitMQ.
 Install Elasticsearch version >= 6.
 
 **Init databases**
+
 Windows
 cd postgres
 "PATH_TO_PSQL.EXE" --host "localhost" --port EXAMPLE_PORT --username "EXAMPLE_USER" --file "createdatabases.sql"
@@ -98,6 +101,7 @@ psql --host "localhost" --port 5432 --username "postgres" --file "PATH_TO_FILE/c
 This script should create lab_user user and the following databases: lab_netmicro_payments, lab_netmicro_jobs, lab_netmicro_policy and lab_netmicro_pricing.
 
 **Run Eureka**
+
 Service registry and discovery tool for our project is Eureka. It is included in the project. In order to start it open terminal / command prompt.
 
 cd eureka-server
@@ -105,6 +109,7 @@ cd eureka-server
 This should start Eureka and you should be able to go to http://localhost:8761/ and see Eureka management panel.
 
 **Build**
+
 Build all projects from command line without test:
 
 Windows

@@ -57,3 +57,69 @@ Business dashboards that presents our agents sales results. Dashboard service su
 Each business microservice has also .Api project (PaymentService.Api, PolicyService.Api etc.), where we defined commands, events, queries and operations and .Test project (PaymentService.Test, PolicyService.Test) with unit and integration tests.
 
 ![UML Diagram](https://github.com/user-attachments/assets/9efff0cf-576c-4567-811b-3fac143e1d7b)
+
+
+**Running with Docker**
+You must install Docker & Docker Compose before.
+
+Scripts have been divided into two parts:
+**infra.yml** runs the necessary infrastructure.
+**app.yml** is used to run the application.
+You can use scripts to build/run/stop/down all containers.
+
+To run the whole solution:
+
+cd scripts
+./infra-run.sh
+./app-run.sh
+If ElasticSearch fails to start, try running sudo sysctl -w vm.max_map_count=262144 first
+
+Once the application and infrastructure are started you can open http://localhost:8080 in your browser and see our welcome page. Once there you can use Account menu item to log into the system. Valid users and passwords can be found here. You can for example login as admin with password admin.
+
+**Manual running**
+Prerequisites
+Install PostgreSQL version >= 10.0.
+
+Install RabbitMQ.
+
+Install Elasticsearch version >= 6.
+
+**Init databases**
+Windows
+cd postgres
+"PATH_TO_PSQL.EXE" --host "localhost" --port EXAMPLE_PORT --username "EXAMPLE_USER" --file "createdatabases.sql"
+In my case this command looks like:
+
+cd postgres
+"C:\Program Files\PostgreSQL\9.6\bin\psql.exe" --host "localhost" --port 5432 --username "postgres" --file "createdatabases.sql"
+Linux
+sudo -i -u postgres
+psql --host "localhost" --port 5432 --username "postgres" --file "PATH_TO_FILE/createdatabases.sql"
+This script should create lab_user user and the following databases: lab_netmicro_payments, lab_netmicro_jobs, lab_netmicro_policy and lab_netmicro_pricing.
+
+**Run Eureka**
+Service registry and discovery tool for our project is Eureka. It is included in the project. In order to start it open terminal / command prompt.
+
+cd eureka-server
+./gradlew.[bat] bootRun
+This should start Eureka and you should be able to go to http://localhost:8761/ and see Eureka management panel.
+
+**Build**
+Build all projects from command line without test:
+
+Windows
+cd scripts
+build-without-tests.bat
+Linux
+cd scripts
+./build-without-tests.sh
+Build all projects from command with test:
+
+Windows
+cd scripts
+build.bat
+Linux
+cd scripts
+./build.sh
+Run specific service
+Go to folder with specific service (PolicyService, ProductService etc) and use dotnet run command.

@@ -13,7 +13,7 @@ Portal will also have some basic social network features like chat for agents.
 Latest feature is a business dashboard that displays sales stats using ElasticSearch Aggregations and ChartJS.
 
 #### Architecture overview
-NET Microservices Architecture
+.NET Microservices Architecture
 
 ![UML Diagram](https://github.com/user-attachments/assets/9efff0cf-576c-4567-811b-3fac143e1d7b)
 

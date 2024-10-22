@@ -1,9 +1,10 @@
 # See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
-FROM mcr.microsoft.com/dotnet/runtime:8.0 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 USER app
 WORKDIR /app
+EXPOSE 8080
 
 
 # This stage is used to build the service project
@@ -11,6 +12,8 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["DK.PolicySearchService/DK.PolicySearchService.csproj", "DK.PolicySearchService/"]
+COPY ["DK.PolicySearchService.API/DK.PolicySearchService.API.csproj", "DK.PolicySearchService.API/"]
+COPY ["DK.PolicyService.API/DK.PolicyService.API.csproj", "DK.PolicyService.API/"]
 RUN dotnet restore "./DK.PolicySearchService/DK.PolicySearchService.csproj"
 COPY . .
 WORKDIR "/src/DK.PolicySearchService"
